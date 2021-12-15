@@ -1,38 +1,104 @@
-.App {
+.app {
+  background-color: #1A1B21;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  margin: 53px auto 0 auto;
   text-align: center;
+  width: 317px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile-img {
+  border-radius: 10px;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info-title {
+  color: #FFF;
+  font-size: 25px;
+  margin-bottom: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.info-subtitle {
+  color:#F3BF99;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+.info-link {
+  color: #FFF;
+  font-size: 10.5px;
+  text-decoration: none;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.social-button {
+  border: 0;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  outline: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.email {
+  background-color: #FFF;
+  color: #222;
+  margin-right: 17px;
+}
+
+.linkedin {
+  background-color: #5093E2;
+  color: #FFF;
+}
+
+.social-icons > li {
+  font-size: 35px;
+  padding: 10px;
+}
+
+.section {
+  color: #FFF;
+  padding: 20px;
+  text-align: left;
+}
+
+.section-title {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.section-info {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 150%;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.footer {
+  background-color: #161619;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.social-icons {
   align-items: center;
+  color: #918E9B;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.social-icons li a {
+  color: #918E9B;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-icons li a:visited {
+  color: #918E9B;
 }
